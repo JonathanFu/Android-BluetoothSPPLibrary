@@ -49,7 +49,9 @@ compile 'com.akexorcist:bluetoothspp:1.0.0'
 Simple Usage
 --------------
 
-• Import this library to your workspace and include in to your android project
+• Import this library to your workspace and include in to your android project 
+For Eclipse ADT : Download this library and import into your workspace and include this library to your project
+For Android Studio : Use Gradle to download this library from Maven
 
 
 • Declare permission for library
@@ -274,6 +276,15 @@ startActivityForResult(intent, BluetoothState.REQUEST_CONNECT_DEVICE);
 
 ![Custom Device List Text](https://raw.githubusercontent.com/akexorcist/Android-BluetoothSPPLibrary/master/image/010.png)
 
+
+
+What's next?
+===========================
+- Connection Dialog 
+- Add Insecure Connection
+- Fix bug on this issue https://github.com/akexorcist/Android-BluetoothSPPLibrary/issues/21
+- Merge the code from https://github.com/akexorcist/Android-BluetoothSPPLibrary/pull/14 for a problem of auto connection
+- Human Readable Log https://github.com/akexorcist/Android-BluetoothSPPLibrary/issues/19
 
 
 
